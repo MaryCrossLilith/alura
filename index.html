@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- MENU DE ACESSIBILIDADE -->
+<nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+    <button class="botao-controle" onclick="alterarFonte(2)" title="Aumentar texto">A+ Aumentar</button>
+    <button class="botao-controle" onclick="alterarFonte(-2)" title="Diminuir texto">A- Diminuir</button>
+    <button class="botao-controle botao-leitura" onclick="lerTexto()" id="btn-voz">�� Ouvir Página</button>
+    <button class="botao-controle" onclick="pararLeitura()">⏹️ Parar</button>
+</nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia de Segurança na Internet</title>
